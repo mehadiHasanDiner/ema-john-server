@@ -65,6 +65,4 @@ client.connect(err => {
 
 
 
-app.listen(port, () => {
-  console.log(process.env.PORT || port)
-})
+app.listen(process.env.PORT || port)
